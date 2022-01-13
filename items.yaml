@@ -6,11 +6,11 @@ items:
   displayName: controller-jobs
   name: controller-jobs
   properties:
-  - envVars: {
+- envVars: {
     }
-  - kubernetesFolderProperty: {
+- kubernetesFolderProperty: {
     }
-  - itemRestrictions:
+- itemRestrictions:
     allowedTypes:
     - org.jenkinsci.plugins.workflow.job.WorkflowJob
     - hudson.model.FreeStyleProject
