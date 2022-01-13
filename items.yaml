@@ -11,11 +11,11 @@ items:
   - kubernetesFolderProperty: {
       }
   - itemRestrictions:
-    allowedTypes:
-    - org.jenkinsci.plugins.workflow.job.WorkflowJob
-    - jenkins.branch.OrganizationFolder
-    - org.jenkinsci.plugins.workflow.multibranch.WorkflowMultiBranchProject
-    filter: true
+      allowedTypes:
+      - org.jenkinsci.plugins.workflow.job.WorkflowJob
+      - jenkins.branch.OrganizationFolder
+      - org.jenkinsci.plugins.workflow.multibranch.WorkflowMultiBranchProject
+      filter: true
   items:
   - kind: organizationFolder
     name: controller-casc-update
